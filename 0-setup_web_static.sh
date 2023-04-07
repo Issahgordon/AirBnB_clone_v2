@@ -25,3 +25,4 @@ sudo sed -i "/server_name _;/a $location_alias" /etc/nginx/sites-available/defau
 # Restart Nginx
 sudo service nginx restart
 
+exit 0
